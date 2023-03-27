@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="images/logo.png"/>
+
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/generic.css">
+    <link rel="stylesheet" href="settings/global.css">
+    <link rel="stylesheet" href="settings/reset.css">
+    <link rel="stylesheet" href="settings/responsive.css">
+    
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript" src="js/insertTime.js" defer></script>
+    <script type="text/javascript" src="js/showTable.js" defer></script>
+    <script type="text/javascript" src="js/switchButtons.js" defer></script>
+    <script type="text/javascript" src="js/convertTime.js" defer></script>
+    <script type="text/javascript" src="js/counting.js" defer></script>
+    <script type="text/javascript" src="js/checkOutput.js" defer></script>
+    <script type="text/javascript" src="js/algorithm.js" defer></script>
+
+    <title>Cube Timer</title>
+
+  </head>
+  <body>
+    <main>
+      <section class="box">
+        <ion-icon class="back" name="arrow-round-back"></ion-icon>
+        <h3>Solves</h3>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p>Best Time</p>
+        <input type="reset" value="" disabled>
+        <p>Worst Time</p>
+        <input type="reset" value="" disabled>
+        <p>MD5</p>
+        <input type="reset" value="" disabled>
+        <p>Overall Average</p>
+        <input type="reset" value="" disabled>
+        <br>
+        <a href="https://github.com/amanrajnarayan" target="_blank"><ion-icon class="github" name="logo-github"></ion-icon></a>
+        <p id="subtitle">Made with ❤️ from Aman Raj</p>
+      </section>
+        <section class="cronometer">
+        <p class = "timer" id="timer">
+          <span class="minute">00</span>:<span class="second">00</span>:<span class="millisecond">00</span>
+        </p>
+        <p class="scramble" id="scramble"></p>
+        <button><ion-icon class="button-icon" name="time"></ion-icon>Start</button>
+        <ion-icon class="folder" name="folder-open"></ion-icon>
+      </section>
+    </main>
+  </body>
+</html>
